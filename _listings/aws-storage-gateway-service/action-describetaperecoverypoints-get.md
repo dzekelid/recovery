@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe Tape Recovery Points
   version: 1.0.0
+  description: |-
+    Returns a list of virtual tape recovery points that are available for the specified
+             gateway-VTL.
 schemes:
 - http
 produces:
