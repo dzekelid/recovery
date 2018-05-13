@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recovery/master/_listings/aws-storage-gateway-service/action-retrievetaperecoverypoint-get.md
-- name: AWS Storage Gateway Service API List Volume Recovery Points
-  description: Lists the recovery points for a specified gateway.
+- name: AWS Storage Gateway Service API Retrieve Tape Recovery Point
+  description: Retrieves the recovery point for the specified virtual tape.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Recovery
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recovery/master/_listings/aws-storage-gateway-service/action-listvolumerecoverypoints-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recovery/master/_listings/aws-storage-gateway-service/action-retrievetaperecoverypoint-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
